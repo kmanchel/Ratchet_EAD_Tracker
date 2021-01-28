@@ -1,0 +1,9 @@
+name: EEAD
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip=20.0.2=py36_1
+  - pip:
+      - -r file:requirements.txt
+prefix: EAD
